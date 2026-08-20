@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<!--
+  Sociotechnical Security — course site
+  Layout/structure modeled on https://cs356.stanford.edu, restyled with
+  Georgia Tech's navy/gold palette (see css/style.css :root variables).
+
+  This file is meant to be hand-edited. Search for "EDIT ME" comments
+  to find the placeholder spots (instructor info, grading breakdown,
+  administrivia) that still need real course details.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Sociotechnical Security</title>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Sociotechnical Security</h1>
+    <h3 class="subtitle"><!-- EDIT ME: course number / term / institution -->Georgia Tech CS 8803/4803, Fall 2026</h3>
+
+    <p class="intro">
+      This course examines how security and safety break down at the intersection of technology, people, and society. We'll study how harms arise from the design of digital technologies and from how they're used in practice, and explore the landscape of technical defenses and interventions against those harms. The course combines reading and discussing published research in usable security and privacy and digital safety with completing an original research project. 
+      <!-- EDIT ME: rewrite this paragraph to match your course description -->
+    </p>
+
+    <h2>📌 Course Information</h2>
+
+    <p class="info-row">
+      <b>Discussion:</b> M/W, 2:00-3:15 PM. <a href = "https://maps.app.goo.gl/vMmNaXP76M4TXTRg6">Molecular Sciences and Engineering.</a>
+      <br>⚠️ This course is based on in-person discussion of research.
+      On-time, in-person attendance and participation is required.
+    </p>
+
+    <p class="info-row">
+      <b>Instructor:</b> <!-- EDIT ME --> <a href = "https://vrivera2017.github.io/">Veronica Rivera</a>.
+      Office Hours: Wednesday 4:00-5:00 PM, or by appointment, Coda S1023.
+    </p>
+
+    <!--<p class="info-row">
+      <b>Course Assistant:</b> Name. Office hours by appointment.
+    </p>-->
+
+    <p class="info-row">
+      <b>Prerequisites:</b>
+      <!-- EDIT ME -->
+      Undergraduate students must have taken CS 3237 (Human Dimension of Cybersecurity: People, Organizations, Societies). There are no prerequisites for graduate students. Having taken a course in Human-Computer Interaction (HCI) is helpful, but not strictly required.
+    </p>
+
+    <p class="info-row">
+      <b>Communication:</b>
+      <!-- EDIT ME -->
+      We will use Ed Discussion for announcements and discussion.
+    </p>
+
+    <p class="info-row">
+      <b>Submissions:</b>
+      <!-- EDIT ME -->
+      All course assignments are submitted through Gradescope.
+    </p>
+
+    <h2>🗓️ Topics and Schedule</h2>
+    <p>The tentative schedule and readings for the class are below:</p>
+
+    <div class="schedule">
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">8/24</span>
+          <span class="day-topic">Introduction</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">8/26</span>
+          <span class="day-topic">User mental models</span>
+        </div>
+        <div class="reading">
+          <!-- <p class="reading-title">Why Johnny Can't Encrypt: A Usability Evaluation of PGP 5.0</p>
+          <p class="reading-cite">Alma Whitten et al., USENIX Security 1999</p>
+          <p class="reading-title">Obstacles to the Adoption of Secure Communication Tools</p>
+          <p class="reading-cite">Ruba Abu-Salma et al., IEEE S&amp;P 2017</p> -->
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">8/31</span>
+          <span class="day-topic">Sociotechnical abuse vectors</span>
+        </div>
+        <div class="reading">
+          <!-- <p class="reading-title">Digital Technologies and Intimate Partner Violence: A Qualitative Analysis with Multiple Stakeholders</p>
+          <p class="reading-cite">Diana Freed et al., CSCW 2017</p>
+          <p class="reading-title">The Spyware Used in Intimate Partner Violence</p>
+          <p class="reading-cite">Rahul Chatterjee et al., IEEE S&amp;P 2018</p> -->
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/2</span>
+          <span class="day-topic">Methods in sociotechnical security</span>
+        </div>
+      </div>
+
+      <div class="day no-class">
+        <div class="day-header">
+          <span class="day-date">9/7</span>
+          <span class="day-topic">Labor Day — no class</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/9</span>
+          <span class="day-topic">Authentication I</span>
+        </div>
+        <!-- <span class="day-due">Due: Group &amp; topic selection</span> -->
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/14</span>
+          <span class="day-topic">Authentication II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/16</span>
+          <span class="day-topic">Security warning design I</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/21</span>
+          <span class="day-topic">Security warning design II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/23</span>
+          <span class="day-topic">Privacy I</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/28</span>
+          <span class="day-topic">Privacy II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">9/30</span>
+          <span class="day-topic">Phishing and social engineering</span>
+        </div>
+        <!-- <span class="day-due">Due: Related works document</span> -->
+      </div>
+
+      <div class="day no-class">
+        <div class="day-header">
+          <span class="day-date">10/5</span>
+          <span class="day-topic">Fall Break — no class</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/7</span>
+          <span class="day-topic">Scams I</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/12</span>
+          <span class="day-topic">Scams II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/14</span>
+          <span class="day-topic">Online hate and harassment I</span>
+        </div>
+        <!-- <span class="day-due">Due: Mid-point report (motivation, methodology, timeline)</span> -->
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/19</span>
+          <span class="day-topic">Online hate and harassment II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/21</span>
+          <span class="day-topic">Intimate partner violence I</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/26</span>
+          <span class="day-topic">Intimate partner violence II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">10/28</span>
+          <span class="day-topic">Activists &amp; journalists</span>
+        </div>
+        <div class="reading">
+          <!-- <p class="reading-title">Defensive Technology Use by Political Activists During the Sudanese Revolution</p>
+          <p class="reading-cite">Alaa Daffalla et al., IEEE S&amp;P 2021</p> -->
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/2</span>
+          <span class="day-topic">Digital intimacy I</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/4</span>
+          <span class="day-topic">Digital intimacy II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/9</span>
+          <span class="day-topic">Youth safety I</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/11</span>
+          <span class="day-topic">Youth safety II</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/16</span>
+          <span class="day-topic">Sociotechnical AI safety</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/18</span>
+          <span class="day-topic">Majority world considerations</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/23</span>
+          <span class="day-topic">In-class feedback and workshopping of projects</span>
+        </div>
+      </div>
+
+      <div class="day no-class">
+        <div class="day-header">
+          <span class="day-date">11/25</span>
+          <span class="day-topic">Thanksgiving — no class</span>
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">11/30</span>
+          <span class="day-topic">Ethics in security</span>
+        </div>
+        <div class="reading">
+          <!-- <p class="reading-title">SoK: Safer Digital-Safety Research Involving At-Risk Users</p>
+          <p class="reading-cite">IEEE S&amp;P 2024</p> -->
+        </div>
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">12/2</span>
+          <span class="day-topic">Careers in trust and safety</span>
+        </div>
+        <!-- <p class="reading-cite">Guest discussion: Reddit moderators, academics, who does what, and career paths in this space.</p> -->
+      </div>
+
+      <div class="day">
+        <div class="day-header">
+          <span class="day-date">12/7</span>
+          <span class="day-topic">Final day of classes — project presentations</span>
+        </div>
+        <!-- <span class="day-due">Due: Final paper (by the end of the final exam period)</span> -->
+      </div>
+
+    </div>
+
+    <!-- <h2>🚩 Course Structure</h2>
+
+    <p>
+      This course has three parts: reading and discussing foundational
+      papers in every class, presenting recent work for one class, and
+      completing a group research project.
+      
+    </p>
+
+    <p class="grading-item"><b>📚 Readings and Discussion (30%)</b></p>
+    <p>
+      We will read and discuss papers for most classes. Students should
+      come prepared to actively discuss the assigned readings. Before each
+      class, students submit a short summary and reaction, plus a proposed
+      discussion question.
+    </p>
+
+    <p class="grading-item"><b>🧑‍🏫 Topic Presentation (15%)</b></p>
+    <p>
+      Each student presents one recent paper, published within the last
+      few years, that is topically relevant to that day's class.
+    </p>
+
+    <p class="grading-item"><b>🔬 Course Project (55%)</b></p>
+    <p>
+      Students complete a semester-long original research project in small
+      groups. Projects have graded milestones:
+    </p>
+    <ul>
+      <li><b>Group &amp; Topic Selection.</b> Due 9/9.</li>
+      <li><b>Related Work Document.</b> Due 9/30.</li>
+      <li><b>Mid-Point Report.</b> Motivation, methodology, and timeline. Due 10/14.</li>
+      <li><b>In-Class Feedback &amp; Workshopping.</b> 11/23.</li>
+      <li><b>Final Presentation.</b> During the last week of class.</li>
+      <li><b>Final Paper.</b> Due 12/7, by the end of the final exam period.</li>
+    </ul>
+
+    <h2>⚙️ Administrivia</h2>
+
+    <p>
+     
+      All submitted work for this course must be directly written by the
+      submitting student(s). Attendance during the final presentation
+      sessions is required for all students.
+    </p> -->
+
+    <footer>
+      <!-- EDIT ME -->
+      Sociotechnical Security &middot; Georgia Institute of Technology &middot; Fall 2026
+    </footer>
+
+  </div>
+</body>
+</html>

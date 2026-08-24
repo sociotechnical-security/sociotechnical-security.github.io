@@ -22,7 +22,7 @@
   --color-subheading: #6b6b6b;
   --color-body: #333333;
   --color-muted: #6b6b6b;
-  --color-link: var(--gt-navy);
+  --color-link: #2774AE; 
   --color-link-hover: var(--gt-gold-dark);
   --color-accent: var(--gt-gold);
   --color-border: #e3e3e3;
@@ -53,7 +53,7 @@ body {
   padding: 0;
   font-family: var(--font-main);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--color-body);
   background: var(--color-background);
 }
@@ -231,10 +231,25 @@ tt, code {
   margin: 0 0 4px 0;
 }
 
+.optional-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
 /* --- Grading breakdown list ----------------------------------------------- */
 
 .grading-item {
   padding-top: 10px;
+  font-size: 16px;
 }
 
 .grading-item b {

@@ -213,6 +213,11 @@ tt, code {
   border-radius: 999px;
 }
 
+.slides-link {
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .reading {
   margin-top: 8px;
 }

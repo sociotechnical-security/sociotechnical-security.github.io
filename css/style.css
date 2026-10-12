@@ -224,7 +224,7 @@ tt, code {
   border-top: 1px solid var(--color-border);
 }
 
-.day.no-class {
+.day.no-class .day-header {
   opacity: 0.6;
 }
 

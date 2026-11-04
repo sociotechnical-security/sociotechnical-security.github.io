@@ -228,6 +228,20 @@ tt, code {
   opacity: 0.6;
 }
 
+.day.deadline-only {
+  grid-column: 1 / -1;
+  border-top: none;
+  background: var(--color-pill-bg);
+  border: 1px solid var(--color-pill-border);
+  border-radius: 8px;
+  padding: 10px 16px;
+  text-align: center;
+}
+
+.day.deadline-only .day-due {
+  font-size: 14px;
+}
+
 .day-header {
   display: flex;
   align-items: baseline;
